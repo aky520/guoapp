@@ -15,6 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
+  BUILD_ARGS: --all-sources
   GOPROXY: https://proxy.golang.org,direct
   GOSUMDB: sum.golang.org
 
